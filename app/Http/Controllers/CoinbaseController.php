@@ -18,7 +18,7 @@ class CoinbaseController extends Controller
         
         $headers = array();
         $headers[] = 'Content-Type: application/json';
-        $headers[] = 'X-Cc-Api-Key: ea082330-5bae-4d4d-a8de-9f880d6794fe';
+        $headers[] = 'X-Cc-Api-Key: <<Api-key>>';
         $headers[] = 'X-Cc-Version: 2018-03-22';
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         
